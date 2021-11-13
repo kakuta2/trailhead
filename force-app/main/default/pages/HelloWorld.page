@@ -1,0 +1,23 @@
+<apex:page >
+    <h1>Hello World</h1>
+    <apex:pageBlock title="A Block Title">
+        <apex:pageBlockSection title="A Section Title">
+            I'm three components deep!
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="A New Section">
+            This is another section.
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    <apex:pageBlock title="User Status">
+        <apex:pageBlockSection columns="1">
+            <p>ようこそ{! $User.FirstName & ' ' & $User.LastName }さん！</p>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection columns="2">
+            <p>今年は{! YEAR(TODAY()) }</p>
+            <p>明日は  {! DAY(TODAY() + 1) }日です</p>
+        </apex:pageBlockSection>
+            <p>「1,2,3,4,5,6,5,4,3,2,1」のMAX値は: {! MAX(1,2,3,4,5,6,5,4,3,2,1) } </p>
+            <p> 49 の平方根は {! SQRT(49) }</p>
+            <p>'salesforce.comにforce.comは含まれる？  {! CONTAINS('salesforce.com', 'force.com') }</p>
+    </apex:pageBlock>
+</apex:page>
