@@ -1,0 +1,28 @@
+<!-- controller属性で呼び出すカスタムコントローラを指定しています。 -->
+<!--&id=0015h00000NvH6r-->
+<!--<apex:page controller="CustomController01">-->
+<apex:page controller="CustomController01" action="{!attach}" tabStyle="Account" renderAs="pdf">
+<!--
+    <apex:form >
+        <apex:pageBlock title="取引先名セクション">
+            取引先名： <apex:inputField value="{!AccountById.name}"/><br/>
+            電話番号： <apex:inputField value="{!AccountById.phone}"/><br/>
+            種別： <apex:inputField value="{!AccountById.type}"/><br/><br/>
+            <apex:commandButton action="{!attach}" value="attach"/>
+        </apex:pageBlock>
+    </apex:form>
+-->
+<!--
+    <table>
+        <tr><th>Account name</th>
+            <td><apex:outputText value="{!AccountById.name}"/></td>
+            </tr>
+        <tr><th>Account phone</th>
+            <td><apex:outputText value="{!AccountById.phone}"/></td>
+            </tr>
+        <tr><th>Account type</th>
+            <td><apex:outputText value="{!AccountById.type}"/></td>
+        	</tr>
+    </table>
+-->
+</apex:page>

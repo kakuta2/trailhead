@@ -47,3 +47,4 @@ package.json
 sfdx-project.json
 .vscode
 .husky
+config/project-scratch-def.json

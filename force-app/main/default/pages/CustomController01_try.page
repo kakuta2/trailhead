@@ -1,0 +1,13 @@
+<apex:page controller="CustomController01" renderAs="pdf">
+        <table>
+        <tr><th>Account name</th>
+            <td><apex:outputText value="{!AccountById.name}"/></td>
+            </tr>
+        <tr><th>Account phone</th>
+            <td><apex:outputText value="{!AccountById.phone}"/></td>
+            </tr>
+        <tr><th>Account type</th>
+            <td><apex:outputText value="{!AccountById.type}"/></td>
+        	</tr>
+    </table>
+</apex:page>
