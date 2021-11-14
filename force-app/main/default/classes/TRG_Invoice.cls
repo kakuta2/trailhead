@@ -1,6 +1,6 @@
 public with sharing class TRG_Invoice extends TriggerHandler {
     public override void beforeInsert(List<Sobject> newList) {
-        debugLog('beforeInsert2');
+        debugLog('beforeInsert!');
     }
     public override void beforeUpdate(Map<Id, Sobject> oldMap, Map<Id, Sobject> newMap) {
         debugLog('beforeUpdate');
