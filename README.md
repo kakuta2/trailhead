@@ -6,8 +6,9 @@ Git Graph
 
 ## クローン
 作成した作成ディレクトリにクローン
+```
 git clone git@github.com:kakuta2/trailhead.git
-
+```
 ## VsCode
 ### 作業ディレクトリ(例だとworkフォルダ)をVSCODEで開く
 Ctrl+Shift+p
