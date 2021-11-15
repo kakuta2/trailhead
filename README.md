@@ -1,4 +1,3 @@
-branchで更新
 ## VsCodeプラグイン
 Git Graph
 
